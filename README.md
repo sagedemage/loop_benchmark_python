@@ -19,3 +19,14 @@
     </tr>
 </table>
 
+## Run Benchmark
+Compile the custom library in C.
+```
+cc -fPIC -shared -o lib.so lib.c
+```
+
+Run the python program
+```
+python3 main.py
+```
+
